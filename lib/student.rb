@@ -11,7 +11,7 @@ class Student
   end
   
   def self.create(name,grade)
-    self.save
+    save
   end
 
   def self.new_from_db(row)
