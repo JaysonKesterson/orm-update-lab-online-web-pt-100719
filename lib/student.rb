@@ -3,6 +3,10 @@ require_relative "../config/environment.rb"
 class Student
 
   attr_accessor :id, :name, :grade
+  
+  def initialize
+    
+  end
 
   def self.new_from_db(row)
     new_student = self.new  # self.new is the same as running Song.new
