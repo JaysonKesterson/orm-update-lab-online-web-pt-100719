@@ -9,6 +9,10 @@ class Student
     @name = name
     @grade = grade
   end
+  
+  def self.create(name,grade)
+    
+  end
 
   def self.new_from_db(row)
     new_student = self.new  # self.new is the same as running Song.new
